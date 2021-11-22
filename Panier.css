@@ -1,0 +1,134 @@
+
+
+body
+{
+    background-image: url("ImageFond.jpg");
+    background-size: 100%;
+
+}
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    /*background-color: rgb(231, 133, 185);*/
+    }
+    header#entetepage{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0,5s;
+    }
+    .theme {
+    padding: 10px 10px;
+    background-color:cyan;
+    margin-top: -10px;
+    text-transform: unset;
+    align-items: center;
+    }
+    .theme:hover{
+    background-color: rgb(0, 217, 255);
+    transition:ease-out;
+    }
+    header .navbar li a:hover{
+    color: cyan;
+    border-bottom: 2px solid cyan;
+    }
+    .logo{
+   
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
+    color: cyan;
+    }
+    .logo span{
+    color:black;
+    }
+   
+    .navbar{
+    display: flex;
+    position: relative;
+    }
+    .navbar li {
+    list-style: none;
+    }
+    .navbar a{
+    color:black;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700 ;
+    }
+    header .navbar li button:hover{ 
+        color: cyan;   
+        border-bottom: 2px solid cyan; 
+    }  
+    .navbar button{   
+        color:black;   
+        text-decoration: none; 
+        margin-left: 30px; 
+        font-weight: 700 ; 
+    } 
+    section{
+        padding: 100px;
+        background-image: url(fond.jpg);
+        background-size: cover;
+    }  
+    .col {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .Description div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+    .Description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Acheter
+{
+    border : solid;
+    background: rgb(174, 137, 100);
+    color: white
+;
+}
+
+.Pied div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.Pied {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Pied .etoile{
+    width: 150px;
+    height: 50px;
+}
+footer{
+    background-color: gray;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">    
+
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="contact, pop universe"/>
+        <meta name="description" content="Site pour un projet scolaire non officiel de vente de figurine Pop"/>
+        <link rel="stylesheet" href="contact.css">
+        <script src="java.js" defer></script>
+        <link rel="icon"  type="image/png" href="favicon.png">
+        <title>Pop Universe</title>
+        
+    </head>
+    <body>
+       <!-- Menu du haut -->
+        <header>
+           <a href="#" class="logo" ><span>Pop</span> Universe</a>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="figurine.html">Figurine</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><button id ="btn" class="theme">Thème</button></li>
+                </ul>
+            </nav>  
+       </header>
+       <section class="contact" id="contact">
+        <div class="col">
+            <h2 class="titre"><span>C</span>ontact</h2>
+         </div>
+            <div class="contactform">
+                <h2>Nos coordonnées</h2>
+                <p>Numéro : 07 83 40 58 74 </br> E-mail : <a href="mailto:djibril.ramdani@etu.univ-amu.fr">djibril.ramdani@etu.univ-amu.fr</a></p>  
+                     <form id="form" action="submit" method="mailto:djibril.ramdani@etu.univ-amu.fr" enctype="">
+                        <p>
+                            <label for="prenom">Prénom</label>
+                            <input id="prenom" type="text" name="prenom" value=" "/>
+                            <br/><label for="nom">Nom</label>
+                            <input id="nom" type="text" name="nom" value=" "/><br/>
+                            <select name="sexe">
+                            <br/><option>homme</option>
+                            <option>femme</option>
+                            </select><br/>
+                            <label for="impression">Avis</label>
+                            <br/><textarea name="impression" rows="2" cols="50">
+                            
+                            </textarea><br/>
+                            <input type="submit"  value="Envoyer"/>
+                            </p>
+                    </form>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>copyright 2021 <a href="#">Pop Universe</a>. Tous droits réservé</p>
+    </div>
+
+    
+</body>
+
+</html>
+       
